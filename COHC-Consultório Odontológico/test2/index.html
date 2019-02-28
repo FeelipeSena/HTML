@@ -1,0 +1,575 @@
+ <!-- Criado por Felipe Sena 20 de setembro 2018, Curso youtube de Bootstrap --> 
+ <!-- Transformar o mesmo em um Site para o COHC --> 
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>COHC Consultorio Odontologico</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      
+    <!-- Bootstrap CSS -->
+      
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="fixo/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+  <body>
+ <!------------------------------------------------------------- Menu ---------------------------------------------------------------------------->   
+  <nav class="navbar navbar-expand-lg navbar-dark  bg-info" id="menu">
+      <div class="container">
+    
+        <a class="navbar-brand h1 mb-0" href="#"><h3 id="cohc">COHC</h3></a>
+        
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                <span class="navbar-toggler-icon"></span> 
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarSite">
+
+                <ul class="navbar-nav nr-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Dentistas</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Criancas</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Adultos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Localizacao</a>
+                    </li>
+
+                </ul>
+                
+                        <ul class="navbar-nav ml-auto">
+
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
+                                Social  
+                                </a>
+                                <div class="dropdown-menu">
+
+                                    <a class="dropdown-item" href="#">Facebook</a>
+                                    <a class="dropdown-item" href="#">Instagram</a>
+                                    <a class="dropdown-item" href="#">Youtube</a>
+                                    <a class="dropdown-item" href="#">Twitter</a>
+                                </div> 
+
+                            </li>
+
+                        </ul>
+
+                
+              <form class="form-inline">
+                  <input class="form-control ml-4 mr-2" type="search" placeholder="Search..">
+                  <button class="btn btn-primary" type="submit">Ok</button>
+                
+                
+              </form>
+                
+            </div>
+     </div>
+ </nav>
+ <!-------------------------------------------------------------Carousel Imagens -------------------------------------------------------------------->
+      
+      <div id="carouselSite" class="carousel slide" data-ride="carousel">
+        
+          <ol class="carousel-indicators">
+            <li data-target="carouselSite" data-slide-to="0" class="active"></li>
+            <li data-target="carouselSite" data-slide-to="1"></li>
+            <li data-target="carouselSite" data-slide-to="2"></li> 
+          </ol>
+          <div class="carousel-inner">
+          
+            <div class="carousel-item active">
+                
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              
+                <img class="minhas-imagens" src="imgs/645c2fdaf46501cb1a34e3794951c587.jpg" class="img-fluid d-block" >
+                
+            </div>
+               
+            <div class="carousel-item">
+              
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 id="texto">Seu novo Sorriso em Pouso Alegre! </h3>
+                </div>
+                
+                <img class="minhas-imagens" src="imgs/1445564066.jpg" class="img-fluid d-block">
+                
+            </div>
+               
+            <div class="carousel-item">
+              
+                <div class="carousel-caption d-none d-md-block">   
+                </div>
+                
+                <img class="minhas-imagens" src="imgs/banner-home-02.png" class="img-fluid d-block">
+                
+            </div>
+            
+            <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev"> 
+              
+              <span class="carousel-control-prev-icon"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            
+            <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next"> 
+              
+              <span class="carousel-control-next-icon"></span>
+              <span class="sr-only">Next</span>
+            </a>
+              
+          </div>
+                
+      </div>
+      
+      
+<!------------------------------------------------------------- Bloco Menu E Texto ------------------------------------------------------------------>
+      <div>   
+        <div class="row"> 
+            <div class="col-12 text-center my-4">
+                <h1 class="display-4">Consultório Odontológico Hérica e Cristiane</h1>
+                <p>Com um tratamento especial no COHC, seu filho nunca terá medo de dentistas!</p>
+                
+            </div>
+        
+        </div>
+          
+        <div class="row mb-5">
+           
+            <div id="menu" class="col-sm-6 col-md-4 mb-3" >
+            
+                <nav id="navbarVertical" class="navbar navbar-light bg-light">
+                    <nav class="nav nav-pills flex-column">
+                
+                        <a class="nav-link" href="#item1">Herica Renata de Luna Sena</a>
+                            
+                            <nav class="nav nav-pills flex column">
+                                
+                                <a id="subMenu" class="nav-link ml-3" href="#item1-1">Experiencias</a>
+                                
+                                <a id="subMenu" class="nav-link ml-3" href="#item1-2">Criancas</a>
+                                
+                            </nav>
+                        
+                        <a class="nav-link my-2" href="#item2">O Consultorio</a>
+                        
+                        <a class="nav-link my-2" href="#item3">Cristiane Matsushita</a>
+                        
+                            <nav class="nav nav-pills flex column">
+                                
+                                    <a id="subMenu"class="nav-link ml-3" href="#item3-1">Experiencias</a>
+                                
+                                    <a id="subMenu" class="nav-link ml-3" href="#item3-2">Adultos</a>
+                            </nav>
+                  </nav>
+                </nav>      
+             </div>
+                    
+            <div class="col-md-8">
+                
+            <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
+                
+                <h4 id="item1">English. Many desktop publishing </h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                
+                <h5 id="item1-1"It is a long established fact></h5>
+                <p>that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                
+                <h5 id="item1-2">There are many variations of passages</h5>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words</p>
+                
+                <h4 id="item2">English. Many desktop publishing </h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                
+                <h4 id="item3">English. Many desktop publishing </h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                
+                <h5 id="item3-1">It is a long established fact</h5>
+                <p>that a reader will be distracted by the readable
+                 to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,makingmore-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.makingmore-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.makingmore-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. makingmore-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                 popular belief, Lorem Ipsum is not simply random text. It has root  popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Ls in a piece of classical L
+                <h5 id="item3-2">There are many variations of passages</h5>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words</p>            
+             </div>
+            </div>
+           </div> 
+ <!------------------------------------------------------------- Cards  ---------------------------------------------------------------------------->          
+           <div class="row justify-content-sm-center">
+          
+                <div class="col-sm-6 col-md-4">
+              
+                    <div class="card mb-5">
+                        <img class="card-img-top" src="imgs/novoslide33jpg.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Atendimento Infantil </h4>   
+                            <h6 class="card-subtitle mb-2 text-muted">Especializados em Crianças</h6>
+                            <p class="card-text">from a Lorem Ipsum passage, and going through the cites of the</p>
+                        </div>
+                        <div class="card-body"> 
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Orci varius natoque</li>
+                            <li class="list-group-item">Proin cursus blandit</li>
+                            <li class="list-group-item">Cras sed orci</li>
+                        </ul>
+                            <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">Donec</a>
+                            <a href="#" class="card-link">Curabitur risus</a>       
+                        </div>
+                        <div class="card-footer text-muted">
+                            test of card-footer
+                        </div>
+                    </div>
+                
+                </div>
+              
+                <div class="col-sm-6 col-md-4">
+              
+                    <div class="card mb-5">
+                        <img class="card-img-top" src="imgs/implantes-1.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Implante Dentário </h4>   
+                            <h6 class="card-subtitle mb-2 text-muted">Vestibulum nex Mollis</h6>
+                            <p class="card-text">from a Lorem Ipsum passage, and going through the cites of the</p>
+                        </div>
+                        <div class="card-body"> 
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Orci varius natoque</li>
+                            <li class="list-group-item">Proin cursus blandit</li>
+                            <li class="list-group-item">Cras sed orci</li>
+                        </ul>
+                            <a href="#" class="card-link">Donec</a>
+                            <a href="#" class="card-link">Curabitur risus</a>       
+                        </div>
+                        <div class="card-footer text-muted">
+                            test of card-footer
+                        </div>
+                    </div>
+                    
+                </div>
+              
+                <div class="col-sm-6 col-md-4">
+              
+                    <div class="card mb-5">
+                        <img class="card-img-top" src="imgs/bichectomia.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Bichectomia</h4>   
+                            <h6 class="card-subtitle mb-2 text-muted">Cirurgias e Bichectomias</h6>
+                            <p class="card-text">from a Lorem Ipsum passage, and going through the cites of the</p>
+                        </div>
+                        <div class="card-body"> 
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Orci varius natoque</li>
+                            <li class="list-group-item">Proin cursus blandit</li>
+                            <li class="list-group-item">Cras sed orci</li>
+                        </ul>
+                            <a href="#" class="card-link">Donec</a>
+                            <a href="#" class="card-link">Curabitur risus</a>       
+                        </div> 
+                        <div class="card-footer text-muted">
+                            test of card-footer
+                        </div>
+                    </div>
+                </div>
+           </div>
+    <!-------------------------------------------------------------Jumpo ---------------------------------------------------------------------------->          
+          <div class="jumbotron jumbotron-fluid">
+          
+                <div class="container" >
+              
+                    <div class="row">
+                    
+                        <div class="col-12 text-center">
+                        
+                            <h1 class="display-4">Proin sed tellus</h1>
+                            <p class="lead">ed not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                            <hr>
+                        
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="row">
+                    
+                        <div class="col-12">
+                        
+                            <ul class="nav nav-pills justify-content-center mb-4" id="pills-nav" role="tablist">
+                                
+                                <li nav-item>
+                                    <a class="nav-link active" id="nav-pills-01" data-toggle="pill" href="#nav-item01">Curabitur</a>
+                                </li>
+                                <li nav-item>
+                                    <a class="nav-link" id="nav-pills-02" data-toggle="pill" href="#nav-item02">Lubesstio</a>
+                                </li>
+                                <li nav-item>
+                                    <a class="nav-link" id="nav-pills-03" data-toggle="pill" href="#nav-item03">Lacabameno</a>
+                                </li>
+
+                            </ul>
+                            
+                            <div class="tab-content" id="nav-pills-content">
+                                
+                                <div class="tab-pane fade show active" id="nav-item01" role="tabpanel">
+                                
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                           <div class="embed-reponsive embed-responsive-16by9">
+                                               
+                                                <iframe width="560" height="315" src="https://www.youtube.com/embed/Mk1zuSA3xsA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                            
+                                            
+                                            </div>
+                                        
+                                        </div>
+                                        
+                                        <div class="col-sm-6">
+                                            
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the lethat a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,makingmore-or-less normal distribution of letters, as opposed to using 'Contronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                            
+                                        </div>
+                                    
+                                    </div>
+                                    
+                                </div>
+                                
+                                 <div class="tab-pane fade" id="nav-item02" role="tabpanel">
+                                
+                                   <div class="row">
+                                        <div class="col-sm-6">
+                                           <div class="embed-reponsive embed-responsive-16by9">
+                                               
+                                                <iframe width="560" height="315" src="https://www.youtube.com/embed/sOrXPKUm6Sk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                
+                                            </div>
+                                        
+                                        </div>
+                                        
+                                        <div class="col-sm-6">
+                                            
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap ithat a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from tent here, content here', making it look like readable English.makingmore-or-less normal distribution of letters, as opposed to using 'Content here, content here', makingnto electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                            
+                                        </div>
+                                    
+                                    </div>
+                                    
+                                </div>
+                                
+                                 <div class="tab-pane fade" id="nav-item03" role="tabpanel">
+                                
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                           <div class="embed-reponsive embed-responsive-16by9">
+                                               
+                                               <iframe width="560" height="315" src="https://www.youtube.com/embed/1UoWeFcYwzM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                            
+                                            
+                                            </div>
+                                        
+                                        </div>
+                                        
+                                        <div class="col-sm-6">
+                                            
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into elthat a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,makingmore-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.makingmore-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.makingmore-or-less normal distribution of letters, as opposed to using 'Content here, content here', mak including versions of Lorem Ipsum.</p>
+                                            
+                                        </div>
+                                    
+                                    </div>
+                                    
+                                </div>
+                                
+                            
+                            </div>
+                        
+                        
+                        </div>
+                        
+                    </div>
+                    
+                </div>  
+          
+          </div>
+          
+          <div class="container">
+            <div class="col-12 text-center my-5">
+              <div class="display-4"><h1><i class="fas fa-paper-plane text-primary" aria-hidden="true"></i>  Formulários  <i class="fas fa-paper-plane text-primary" aria-hidden="true"></i></h1>
+             </div>
+            </div>
+            
+            <div class="row justify-content-center mb-5">
+              
+                <div class="col-sm-12-md-10 col-lg-8">
+                
+                    <form>
+                        <div class="form-row">
+                            
+                            <div class="form-group col-sm-6">
+                            
+                                <label for="inputNome">Seu nome</label>
+                                <input type="text" class="form-control" id="inputNome" placeholder="Nome">
+                            
+                            </div>
+                            
+                            <div class="form-group col-sm-6">
+                                <label for="inputSobrenome">Seu E-mail</label>
+                                <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                            
+                            </div>
+                            
+                           <div class="form-group col-sm-12">
+                             <label for="inputEnd">Seu Endereço</label>
+                             <input type="text" class="form-control" id="inputEnd" placeholder="Endereço Completo">
+                               
+                           </div> 
+                            
+                            <div class="form-group col-sm-6">
+                             <label for="inputCidade">Sua Cidade</label>
+                             <input type="text" class="form-control" id="inputCidade" placeholder="Cidade">
+                               
+                           </div> 
+                            
+                            <div class="form-group col-sm-3">
+                                <label for="inputEst">Seu Estado</label>
+                                <select id="inputEst" class="form-control">
+                                    <option selected>Escolha..</option>
+                                    <option>AC</option>
+                                    <option>AL</option>
+                                    <option>AP</option>
+                                    <option>AM</option>
+                                    <option>BA</option>
+                                    <option>CE</option>
+                                    <option>DF</option>
+                                    <option>ES</option>
+                                    <option>GO</option>
+                                    <option>MA</option>
+                                    <option>MT</option>
+                                    <option>MS</option>
+                                    <option>MG</option>
+                                    <option>PA</option>
+                                    <option>PB</option>
+                                    <option>PR</option>
+                                    <option>PE</option>
+                                    <option>PI</option>
+                                    <option>RJ</option>
+                                    <option>RN</option>
+                                    <option>RS</option>
+                                    <option>RO</option>
+                                    <option>RR</option>
+                                    <option>SC</option>
+                                    <option>SP</option>
+                                    <option>SE</option>
+                                    <option>TO</option>
+                                </select>
+                           </div>
+                            
+                            <div class="form-group col-sm-3">
+                                <label for="inputCEP">Seu CEP</label>
+                                <input type="text" id="inputCEP" class="form-control">
+                            </div>
+                            
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-sm-12">
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox">Desejo receber novidades por email
+                                    </label>
+                                </div>
+                            </div>    
+                        </div>
+                   <div class="form-row">
+                       <div class="col-sm-12">
+                           <button type="submit" class="btn btn-primary">Enviar</button>
+                           
+                           <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover" data-placement="right" data-trigger="focus" title="Help" data-content="something about get some help on formularies or other things on your web site">
+                           Ajuda
+                           </a>
+                       </div>
+                   </div>      
+                </form>
+              </div>
+            </div>
+          
+          <div class="row">
+            <div class="col-12 mb-3"><hr></div>
+              
+               <div class="col-sm-4 ">
+                    <h3>Felipe Sena</h3>
+                    <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the.</p>
+                    <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+               </div>
+              
+               <div class="col-sm-4">
+                    <h3>Menu</h3>
+                        <div class="list-group text-center">
+                            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Home</a>
+                            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">About</a>
+                            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">News</a>
+                            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Codes</a>
+                            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Contact</a>
+                        </div>
+              
+              
+               </div>
+               <div class="col-sm-4">
+                <h3>Social</h3>
+                <div class="btn-group" role="group">
+                    <a class="btn btn-outline-primary" href="#"><i class="fab fa-facebook"></i>Facebook</a>
+                    <a class="btn btn-outline-danger" href="#"><i class="fab fa-youtube"></i>Youtube</a>
+                    <a class="btn btn-outline-warning" href="#"><i class="fab fa-instagram"></i>Instagram</a>
+              
+               </div>
+              </div>  
+              <div class="col-12 mt-5">
+                  
+                  <blockquote class="blockquote text-center">
+                  
+                    <p class="mb-0" id="rodapezin">"O Sucesso não é garantido mas o fracasso é certo se você não estiver emocionalmente envolvido em seu trabalho."</p>
+                  <footer class="blockquote-footer">Biz Stone<cite title="Source">"Twitter's Founder"</cite></footer>
+                  </blockquote>
+              
+              </div>
+          </div> 
+        </div>
+    <!------------------------------------------------------------- Modal ---------------------------------------------------------------------------->
+    <div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                
+                <div class="modal-header">
+                        <h5 class="modal-title">Fusce ac cursus nisi</h5>
+                        <button type="button"  class="close" data-dismiss="modal"> </button>
+                        <span>&times;</span>
+                </div>
+                <div class="modal-body">      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words</p>
+                </div> 
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                
+                </div>      
+            </div>
+        </div>  
+    </div>     
+          
+          
+          
+          
+    <!-------------------------------------------------------- JavaScript ---------------------------------------------------------------------------->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>        
+    <script> 
+        $(function(){
+              $('[data-toggle="popover"]').popover()
+          })       
+    </script>
+          
+  </body>
+</html>
